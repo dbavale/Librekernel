@@ -1068,7 +1068,7 @@ install_libecap()
 # -----------------------------------------------
 # Function to install fg-ecap
 # -----------------------------------------------
-install_fg-ecap()
+install_fgecap()
 {
         echo "Installing fg-ecap ..."
 
@@ -2046,7 +2046,7 @@ if [ "$PROCESSOR" = "Intel" -o "$PROCESSOR" = "AMD" -o "$PROCESSOR" = "ARM" ]; t
 	install_mailpile	# Install Mailpile package
 	install_easyrtc		# Install EasyRTC package
 	install_libecap		# Install libecap package
-	install_fg-ecap		# Install fg-ecap package
+	install_fgecap		# Install fg-ecap package
 	install_squid		# Install squid package
 	install_squidclamav	# Install SquidClamav package
 	install_squidguard_bl	# Install Squidguard blacklists
